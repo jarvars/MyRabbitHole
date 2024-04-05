@@ -3,6 +3,7 @@
 ---
 title: Azure-OpenAI
 ---
+```mermaid
 flowchart
         
     subgraph SDK
@@ -37,3 +38,4 @@ flowchart
         dev("👩‍💻 Developer") -- "Consumes" --> API & SDK
         Deployment -- "Implementations" --> Models
         Endpoint -- "requests" --> Endpoints
+```
